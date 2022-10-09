@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-size: cover;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-image: url(./flat-lay-travel-composition-with-world-map-wooden-background_169016-16173.jpg);
+}
+
+.registration-form{
+    position:relative;
+    text-align: center;
+    margin-top: 90px;
+    width: 500px;
+    height: 300px;
+    left: 100px;
+}
+
+.registration-form h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 18px;
+    text-align: center;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px;
+    outline: none;
+}
+#btn{
+    cursor: pointer;
+    position: relative;
+    background-color: plum;
+    color:solid black;
+    left: 30PX;
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+}
+
+#btn:hover{
+    background-color: cadetblue;
+    transition: 1.5;
+    color: aliceblue;
+    transform: 0.9s;
+
+}
+
+
+
